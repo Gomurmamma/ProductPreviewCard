@@ -1,0 +1,36 @@
+{
+  "name": "productpreviewcard",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenge for Product Preview Card Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile:sass": "sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gomurmamma/ProductPreviewCard.git"
+  },
+  "author": "Antonio Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gomurmamma/ProductPreviewCard/issues"
+  },
+  "homepage": "https://github.com/Gomurmamma/ProductPreviewCard#readme",
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "sass": "^1.53.0"
+  }
+}
