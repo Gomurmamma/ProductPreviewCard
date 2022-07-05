@@ -30,6 +30,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "jest": "^28.1.2",
+    "jest-dom": "^4.0.0",
     "jest-environment-jsdom": "^28.1.2",
     "sass": "^1.53.0"
   }
