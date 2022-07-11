@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshots
 
-![Product Preview Card - Demonstration](images/productpreviewcard_responsivedemo.gif)
+![Product Preview Card - Demonstration](src/images/productpreviewcard_responsivedemo.gif)
 
-![Product Preview Card - Dekstop](images/ProductPreviewCard_Desktop.png)
+![Product Preview Card - Dekstop](src/images/ProductPreviewCard_Desktop.png)
 
-![Product Preview Card - Mobile](images/ProductPreviewCard_Mobile.png)
+![Product Preview Card - Mobile](src/images/ProductPreviewCard_Mobile.png)
 
 ### Links
 
