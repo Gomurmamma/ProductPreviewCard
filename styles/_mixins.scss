@@ -1,0 +1,31 @@
+@use "variables";
+
+@mixin tablet-landscape {
+  @media screen and (max-width: $bp-tablet-landscape) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $bp-tablet) {
+    @content;
+  }
+}
+
+@mixin phone-landscape {
+  @media screen and (max-width: $bp-phone-landscape) {
+    @content;
+  }
+}
+
+@mixin phone-med {
+  @media screen and (max-width: $bp-phone-med) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media screen and (max-width: $bp-phone) {
+    @content;
+  }
+}

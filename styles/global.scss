@@ -2,6 +2,7 @@
 
 :root {
   --color-primary-dark-cyan: hsl(158, 36%, 37%);
+  --color-primary-dark-cyan-dark: hsl(158, 36%, 20%);
   --color-primary-cream: hsl(30, 38%, 92%);
   --color-neutral-dark-blue: hsl(212, 21%, 14%);
   --color-neutral-gray-blue: hsl(228, 12%, 48%);
@@ -21,5 +22,10 @@
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--color-primary-cream);
 }

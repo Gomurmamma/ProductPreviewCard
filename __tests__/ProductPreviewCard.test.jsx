@@ -7,10 +7,19 @@ describe("ProductPreviewCard", () => {
     expect(() => render(<ProductPreviewCard />)).not.toThrow();
   });
 
-  it("renders product image", () => {
+  it("renders product image - desktop", () => {
     render(<ProductPreviewCard />);
     expect(
-      screen.getByAltText("Photo of Gabrielle Essence Eau De Parfum")
+      screen.getByAltText(
+        "Photo of Gabrielle Essence Eau De Parfum for desktop"
+      )
+    ).toBeInTheDocument();
+  });
+
+  it("renders product image - mobile", () => {
+    render(<ProductPreviewCard />);
+    expect(
+      screen.getByAltText("Photo of Gabrielle Essence Eau De Parfum for mobile")
     ).toBeInTheDocument();
   });
 
