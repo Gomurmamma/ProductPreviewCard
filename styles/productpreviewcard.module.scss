@@ -72,7 +72,7 @@
       margin-bottom: 1.5rem;
       font-family: var(--font-family-Fraunces);
       font-weight: 700;
-      font-size: 4rem;
+      font-size: 3.85rem;
       color: var(--color-neutral-dark-blue);
       line-height: 1;
       @include phone-landscape {
@@ -95,7 +95,7 @@
       font-weight: 500;
       color: var(--color-neutral-gray-blue);
       line-height: 1.6;
-      margin-bottom: 2rem;
+      margin-bottom: 2.6rem;
       @include tablet {
         font-size: 1.5rem;
       }
@@ -171,6 +171,7 @@
       border: none;
       background-color: var(--color-primary-dark-cyan);
       color: var(--color-neutral-white);
+      font-size: 1.5rem;
       font-family: var(--font-family-Montserrat);
       font-weight: 700;
       justify-content: center;
