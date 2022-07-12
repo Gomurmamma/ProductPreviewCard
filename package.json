@@ -26,6 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.11.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "eslint": "^8.19.0",
@@ -33,6 +34,7 @@
     "jest": "^28.1.2",
     "jest-dom": "^4.0.0",
     "jest-environment-jsdom": "^28.1.2",
+    "netlify-cli": "^10.8.0",
     "sass": "^1.53.0"
   }
 }
