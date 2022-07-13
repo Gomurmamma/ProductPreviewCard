@@ -19,7 +19,7 @@
     max-width: 75vw;
   }
   @include phone-med {
-    max-width: 90vw;
+    max-width: 33.75rem;
   }
   @include phone {
     min-height: 46rem;
@@ -51,14 +51,13 @@
     &__category {
       margin-bottom: 2rem;
       font-family: var(--font-family-Montserrat);
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       font-weight: 500;
       letter-spacing: 0.5rem;
       color: var(--color-neutral-gray-blue);
 
       @include phone-med {
         margin-bottom: 1rem;
-        font-size: 1.2rem;
       }
       @include phone {
         margin-top: -1rem;
@@ -72,14 +71,14 @@
       margin-bottom: 1.5rem;
       font-family: var(--font-family-Fraunces);
       font-weight: 700;
-      font-size: 3.7rem;
+      font-size: 3.5rem;
       color: var(--color-neutral-dark-blue);
       line-height: 1;
       @include phone-landscape {
         font-size: 3.8rem;
       }
       @include phone-med {
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-bottom: 1.1rem;
       }
       @include phone {
@@ -95,12 +94,12 @@
       font-weight: 500;
       color: var(--color-neutral-gray-blue);
       line-height: 1.6;
-      margin-bottom: 2.6rem;
+      margin-bottom: 4rem;
       @include tablet {
         font-size: 1.5rem;
       }
       @include phone-landscape {
-        font-size: 1.35rem;
+        font-size: 1.3rem;
       }
       @include phone-med {
         font-size: 1.3rem;
@@ -128,7 +127,7 @@
       }
     }
     &__priceSale {
-      font-size: 3.8rem;
+      font-size: 3.5rem;
       font-family: var(--font-family-Fraunces);
       font-weight: 700;
       color: var(--color-primary-dark-cyan);
@@ -167,7 +166,7 @@
       margin-top: 2.5rem;
       height: 12%;
       width: 100%;
-      border-radius: 1vmin;
+      border-radius: 2vmin;
       border: none;
       background-color: var(--color-primary-dark-cyan);
       color: var(--color-neutral-white);
